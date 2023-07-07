@@ -87,6 +87,7 @@ Click Peers, then Add Peer
 
 interfaces-peers
 
+![Screenshot](interfaces-peer_zit04o4.png)
 
 Click image to enlarge.
 
@@ -117,17 +118,22 @@ Click **Save**
 Click on Edit the lan zone and set **"Allow forward to destination zones"** to WGZONE:WGINTERFACE" as the only option under allowed destinations.
 
  
-
+![Screenshot](zones.png)
 
 Click image to enlarge.
-DHCP and DNS settings
+
+**DHCP and DNS settings**
 
 Under Network go to the DHCP and DNS settings.
 
 Next to **DNS forwarding**, add 10.64.0.1
 
 screenshot of LEDE DHCP and DNS settings page
+
+![Screenshot](dhcpdns.png)
+
 Click image to enlarge.
+
 **Change IP on LAN Interface (optional)**
 
 If you have other routers in the network that use the IPs 192.168.0.1 or 192.168.1.1 then you can change the IP of the WireGuard router so they don't conflict.
