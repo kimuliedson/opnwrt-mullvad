@@ -69,6 +69,8 @@ Make the following changes:
   
   **IP Addresses** – replace 10.67.114.172/32 with the IP address you received from Mullvadscreenshot of LEDE interfaces page
 
+![Screenshot](wg-interfaces.png)
+
 Click image to enlarge.
 
 Click Peers, then Add Peer
